@@ -1,0 +1,29 @@
+.tweet-button {
+  letter-spacing: 1px;
+  background-color: #1da1f2;
+  border-radius: 9999px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 5rem;
+}
+
+.tweet-button:hover {
+  background-color: #1a91da;
+  transition: ease-in-out 0.1s 0.1s;
+}
+
+.tweet-button:active {
+  background-color: #1a91da;
+  transform: scale(0.98);
+}
+
+.tweet-button:disabled {
+  background-color: #4fb4f2;
+  opacity: 0.5;
+  cursor: not-allowed;
+}

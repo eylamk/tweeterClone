@@ -1,0 +1,84 @@
+.new-tweet-window {
+    border: #E1E8ED solid 2px;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content; /* Rows for name, text, and footer */
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px 20px 10px 20px;
+    grid-auto-rows: minmax(100px, auto);
+    height: auto;
+    width: 60%;
+    margin: auto;
+}
+
+.new-tweet-window__text-area {
+    width: 100%;
+    border-width: 0 0 2px;
+    border-bottom: #E1E8ED solid;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0 auto;
+    white-space: initial;
+    overflow-wrap: break-word;
+    display: inline;
+}
+
+
+.new-tweet-window__user-name {
+    font-weight: 800;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem 0rem 0rem 0rem;
+    padding: 2px 15px 2px 0px;
+    border-bottom: #858b8f dashed 2px;
+    height: 1.5rem;
+    width: fit-content;
+}
+
+
+.new-tweet-window__text-area:focus {
+    border-bottom: #1da1f2 solid 2px;
+    outline: none;
+}
+
+.less-then-limit{
+    background-color: transparent;
+}
+
+.more-then-limit{
+    background-color: #FF9BB0;
+}
+
+.new-tweet-window__lower-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+    padding: 2px;
+}
+
+.new-tweet-window__lower-footer > * {
+    margin: 0.5rem 0rem 0rem 0.75rem;
+}
+
+.new-tweet-window__lower-footer > span {
+    color: grey;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 1.5rem;
+    border-right: #657786 solid 2px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 1rem;
+}
+
+.new-tweet-window__lower-footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: #CCD4DA;
+    margin-top: 0rem;
+}
