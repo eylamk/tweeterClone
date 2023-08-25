@@ -1,8 +1,7 @@
 import TweetButton from "./TweetButton";
 import { ItweetProps } from "./Tweet";
 import './NewTweetWindow.css'
-import { useRef, useState, useEffect, HtmlHTMLAttributes } from "react";
-import { red } from "@mui/material/colors";
+import { useRef, useState } from "react";
 
 export interface InewTweetWindowProps {
     authorName: string;

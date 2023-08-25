@@ -1,5 +1,4 @@
 import './TweetButton.css'
-import {useEffect} from "react";
 
 interface ButtonProps {
     text: string;
